@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="IReadFIFO.lvclass" Type="LVClass" URL="../../../Common_RT_FPGA/IReadFIFO/IReadFIFO.lvclass"/>
-	<Item Name="IReadWriteControl.lvclass" Type="LVClass" URL="../../../Common_RT_FPGA/IReadWriteControl/IReadWriteControl.lvclass"/>
-	<Item Name="IWriteFIFO.lvclass" Type="LVClass" URL="../../../Common_RT_FPGA/IWriteFIFO/IWriteFIFO.lvclass"/>
+	<Item Name="IReadFIFO.lvclass" Type="LVClass" URL="../IReadFIFO/IReadFIFO.lvclass"/>
+	<Item Name="IReadWriteControl.lvclass" Type="LVClass" URL="../IReadWriteControl/IReadWriteControl.lvclass"/>
+	<Item Name="IWriteFIFO.lvclass" Type="LVClass" URL="../IWriteFIFO/IWriteFIFO.lvclass"/>
 </Library>
