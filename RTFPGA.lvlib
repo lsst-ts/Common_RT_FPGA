@@ -4,7 +4,40 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="IReadFIFO.lvclass" Type="LVClass" URL="../IReadFIFO/IReadFIFO.lvclass"/>
-	<Item Name="IReadWriteControl.lvclass" Type="LVClass" URL="../IReadWriteControl/IReadWriteControl.lvclass"/>
-	<Item Name="IWriteFIFO.lvclass" Type="LVClass" URL="../IWriteFIFO/IWriteFIFO.lvclass"/>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="IBooleanControl.lvclass" Type="LVClass" URL="../IBooleanControl/IBooleanControl.lvclass"/>
+		<Item Name="II8Control.lvclass" Type="LVClass" URL="../II8Control/II8Control.lvclass"/>
+		<Item Name="II16Control.lvclass" Type="LVClass" URL="../II16Control/II16Control.lvclass"/>
+		<Item Name="II32Control.lvclass" Type="LVClass" URL="../II32Control/II32Control.lvclass"/>
+		<Item Name="II64Control.lvclass" Type="LVClass" URL="../II64Control/II64Control.lvclass"/>
+		<Item Name="IU8Control.lvclass" Type="LVClass" URL="../IU8Control/IU8Control.lvclass"/>
+		<Item Name="IU16Control.lvclass" Type="LVClass" URL="../IU16Control/IU16Control.lvclass"/>
+		<Item Name="IU32Control.lvclass" Type="LVClass" URL="../IU32Control/IU32Control.lvclass"/>
+		<Item Name="IU64Control.lvclass" Type="LVClass" URL="../IU64Control/IU64Control.lvclass"/>
+	</Item>
+	<Item Name="IRQs" Type="Folder">
+		<Item Name="IIRQ.lvclass" Type="LVClass" URL="../IIRQ/IIRQ.lvclass"/>
+	</Item>
+	<Item Name="ReadFIFOs" Type="Folder">
+		<Item Name="IReadBooleanFIFO.lvclass" Type="LVClass" URL="../IReadBooleanFIFO/IReadBooleanFIFO.lvclass"/>
+		<Item Name="IReadI8FIFO.lvclass" Type="LVClass" URL="../IReadI8FIFO/IReadI8FIFO.lvclass"/>
+		<Item Name="IReadI16FIFO.lvclass" Type="LVClass" URL="../IReadI16FIFO/IReadI16FIFO.lvclass"/>
+		<Item Name="IReadI32FIFO.lvclass" Type="LVClass" URL="../IReadI32FIFO/IReadI32FIFO.lvclass"/>
+		<Item Name="IReadI64FIFO.lvclass" Type="LVClass" URL="../IReadI64FIFO/IReadI64FIFO.lvclass"/>
+		<Item Name="IReadU8FIFO.lvclass" Type="LVClass" URL="../IReadU8FIFO/IReadU8FIFO.lvclass"/>
+		<Item Name="IReadU16FIFO.lvclass" Type="LVClass" URL="../IReadU16FIFO/IReadU16FIFO.lvclass"/>
+		<Item Name="IReadU32FIFO.lvclass" Type="LVClass" URL="../IReadU32FIFO/IReadU32FIFO.lvclass"/>
+		<Item Name="IReadU64FIFO.lvclass" Type="LVClass" URL="../IReadU64FIFO/IReadU64FIFO.lvclass"/>
+	</Item>
+	<Item Name="WriteFIFOs" Type="Folder">
+		<Item Name="IWriteBooleanFIFO.lvclass" Type="LVClass" URL="../IWriteBooleanFIFO/IWriteBooleanFIFO.lvclass"/>
+		<Item Name="IWriteI8FIFO.lvclass" Type="LVClass" URL="../IWriteI8FIFO/IWriteI8FIFO.lvclass"/>
+		<Item Name="IWriteI16FIFO.lvclass" Type="LVClass" URL="../IWriteI16FIFO/IWriteI16FIFO.lvclass"/>
+		<Item Name="IWriteI32FIFO.lvclass" Type="LVClass" URL="../IWriteI32FIFO/IWriteI32FIFO.lvclass"/>
+		<Item Name="IWriteI64FIFO.lvclass" Type="LVClass" URL="../IWriteI64FIFO/IWriteI64FIFO.lvclass"/>
+		<Item Name="IWriteU8FIFO.lvclass" Type="LVClass" URL="../IWriteU8FIFO/IWriteU8FIFO.lvclass"/>
+		<Item Name="IWriteU16FIFO.lvclass" Type="LVClass" URL="../IWriteU16FIFO/IWriteU16FIFO.lvclass"/>
+		<Item Name="IWriteU32FIFO.lvclass" Type="LVClass" URL="../IWriteU32FIFO/IWriteU32FIFO.lvclass"/>
+		<Item Name="IWriteU64FIFO.lvclass" Type="LVClass" URL="../IWriteU64FIFO/IWriteU64FIFO.lvclass"/>
+	</Item>
 </Library>
