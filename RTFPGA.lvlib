@@ -24,6 +24,7 @@
 		<Item Name="IReadI16FIFO.lvclass" Type="LVClass" URL="../IReadI16FIFO/IReadI16FIFO.lvclass"/>
 		<Item Name="IReadI32FIFO.lvclass" Type="LVClass" URL="../IReadI32FIFO/IReadI32FIFO.lvclass"/>
 		<Item Name="IReadI64FIFO.lvclass" Type="LVClass" URL="../IReadI64FIFO/IReadI64FIFO.lvclass"/>
+		<Item Name="IReadSGLFIFO.lvclass" Type="LVClass" URL="../IReadSGLFIFO/IReadSGLFIFO.lvclass"/>
 		<Item Name="IReadU8FIFO.lvclass" Type="LVClass" URL="../IReadU8FIFO/IReadU8FIFO.lvclass"/>
 		<Item Name="IReadU16FIFO.lvclass" Type="LVClass" URL="../IReadU16FIFO/IReadU16FIFO.lvclass"/>
 		<Item Name="IReadU32FIFO.lvclass" Type="LVClass" URL="../IReadU32FIFO/IReadU32FIFO.lvclass"/>
